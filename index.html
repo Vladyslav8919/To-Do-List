@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/css/style.css" />
+    <script defer src="src/js/script.js"></script>
+    <title>todos</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">to<span class="title--do">do</span>s</h1>
+      <ul class="todo-list"></ul>
+
+      <div class="empty-state">
+        <img class="checklist-icon" src="src/img/hero-img.svg" alt="" />
+        <h2 class="empty-state__title">Add your first todo</h2>
+        <p class="empty-state__description">
+          What do you want to get done today?
+        </p>
+      </div>
+
+      <form class="form">
+        <input
+          class="todo-input"
+          type="text"
+          name="todo"
+          placeholder="e.g. Learn JavaScript"
+        />
+        <button class="input-btn">Add</button>
+      </form>
+    </div>
+
+    <footer>by Vladyslav Pshevlotskyi</footer>
+  </body>
+</html>

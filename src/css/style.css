@@ -1,0 +1,175 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  height: 100vh;
+  background: #748ffc;
+  font-family: "Lato", sans-serif;
+}
+
+.title {
+  font-size: 7rem;
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.title--do {
+  background-color: #748ffc;
+  border-radius: 20px;
+  color: white;
+}
+
+.container {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  min-width: 450px;
+  background-color: white;
+  color: #748ffc;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.form {
+  margin-bottom: 1rem;
+}
+
+.todo-input {
+  width: 60%;
+  font-family: inherit;
+  border-radius: 10rem;
+  border: 3px solid #bac8ff;
+  padding: 0.3rem;
+  text-align: center;
+}
+
+.input-btn {
+  font-family: "Lato", sans-serif;
+  width: 10%;
+  color: whitesmoke;
+  background-color: #91a7ff;
+  border: 2.5px solid #bac8ff;
+  border-radius: 10rem;
+  padding: 0.3rem;
+}
+
+.todo-list {
+  width: 70%;
+  list-style-type: none;
+  margin: 0.35rem auto;
+  position: relative;
+}
+
+.todo-item {
+  width: 100%;
+  border-radius: 10rem;
+  border: 2.5px solid #bac8ff;
+  background-color: #91a7ff;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.8rem;
+  margin: 0.3rem 0;
+}
+
+.todo-item--label {
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+
+.todo-item--span {
+  padding: 0 0.5rem;
+  justify-self: flex-start;
+}
+
+.done {
+  opacity: 0.5;
+}
+
+.done span {
+  text-decoration: line-through;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.tick {
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.tick::before {
+  content: "✓";
+  font-size: 20px;
+  display: none;
+}
+
+.done .tick::before {
+  display: inline;
+}
+
+.todo-remove {
+  font-size: 1.1rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: whitesmoke;
+  position: absolute;
+  right: 13px;
+}
+
+.empty-state {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.checklist-icon {
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.empty-state__title,
+.empty-state__description {
+  margin-bottom: 20px;
+}
+
+.todo-list:empty {
+  display: none;
+}
+
+.todo-list:empty + .empty-state {
+  display: flex;
+}
+
+.pseudo-btn {
+  position: absolute;
+}
+
+footer {
+  font-size: 1rem;
+  font-style: italic;
+  text-align: center;
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  opacity: 0.4;
+}
