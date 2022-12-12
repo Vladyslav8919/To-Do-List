@@ -14,7 +14,7 @@ body {
 }
 
 .title {
-  font-size: 7rem;
+  font-size: 5rem;
   display: inline-block;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
@@ -90,6 +90,7 @@ body {
 }
 
 .todo-item--span {
+  font-size: 1.15rem;
   padding: 0 0.5rem;
   justify-self: flex-start;
 }
@@ -143,13 +144,14 @@ input[type="checkbox"] {
 }
 
 .checklist-icon {
-  margin-bottom: 20px;
+  margin-bottom: 0;
   width: 50%;
 }
 
 .empty-state__title,
 .empty-state__description {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  font-size: 1rem;
 }
 
 .todo-list:empty {
@@ -165,7 +167,7 @@ input[type="checkbox"] {
 }
 
 footer {
-  font-size: 1rem;
+  font-size: 0.65rem;
   font-style: italic;
   text-align: center;
   position: absolute;
