@@ -36,11 +36,12 @@ const renderTodo = function (todo) {
   node.setAttribute("class", `todo-item ${isChecked}`);
   node.setAttribute("data-key", `${todo.id}`);
   node.innerHTML = `
-    <input id="${todo.id}" type="checkbox" class="todo-tick"/>
-
-    <label for="${todo.id}" class="todo-item--label tick js-tick"><span class="todo-item--span">${todo.text}</span></label>
+  <button class="todo-check">️✓</button>
+  <input id="${todo.id}" type="checkbox" class="todo-tick"/>
+  
+  <label for="${todo.id}" class="todo-item--label tick js-tick"><span class="todo-item--span">${todo.text}</span></label>
+  <button class="todo-remove">️✕</button>
     
-    <button class="todo-remove">✕</button>
   `;
 
   if (item) {
@@ -64,17 +65,17 @@ const addToDo = function (text) {
 };
 
 list.addEventListener("click", function (e) {
-  if (e.target.classList.contains("todo-tick")) {
+  if (e.target.classList.contains("tick")) {
+    console.log(e.target);
+  }
+  if (e.target.classList.contains("todo-check")) {
     const itemKey = e.target.parentElement.dataset.key;
     toggleChecked(itemKey);
   }
 
-  // if (e.target.classList.contains("todo-tick")) {
-
-  // }
-
   if (e.target.classList.contains("todo-remove")) {
     const itemKey = e.target.parentElement.dataset.key;
+    console.log(itemKey);
     deleteTodo(itemKey);
   }
 });
@@ -96,10 +97,13 @@ const deleteTodo = function (key) {
 
   todoItems = todoItems.filter((item) => item.id !== Number(key));
   renderTodo(todo);
+  localStorage.setItem("todoItemsRef", JSON.stringify(todoItems));
 };
 
 document.addEventListener("DOMContentLoaded", () => {
   const ref = localStorage.getItem("todoItemsRef");
+  console.log(ref);
+
   if (ref) {
     todoItems = JSON.parse(ref);
     todoItems.forEach((t) => {
