@@ -86,7 +86,7 @@ body {
   width: 100%;
   border-radius: 10rem;
   /* border: 2.5px solid #91a7ff; */
-  background-color: #ffa8a8;
+  background-color: var(--secondary-color);
   color: #fff;
   margin: 0.45rem 0;
   padding: 0.3rem 0;
