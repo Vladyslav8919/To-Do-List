@@ -92,12 +92,12 @@ body {
   padding: 0.3rem 0;
 }
 
-.todo-item:nth-child(odd) {
+/* .todo-item:nth-child(odd) {
   background-color: var(--secondary-color);
 }
 .todo-item:nth-child(even) {
   background-color: var(--tertiary-color);
-}
+} */
 
 .todo-item--label {
   padding: 0;
