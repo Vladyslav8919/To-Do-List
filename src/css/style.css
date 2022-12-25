@@ -18,7 +18,7 @@ body {
   display: inline-block;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
-  background-color: #bac8ff;
+  color: #bac8ff;
   letter-spacing: 1px;
 }
 
@@ -80,7 +80,7 @@ body {
   /* border: 2.5px solid #91a7ff; */
   background-color: #91a7ff;
   color: whitesmoke;
-  margin: 0.3rem 0;
+  margin: 0.5rem 0;
   padding: 0.3rem 0;
 }
 
