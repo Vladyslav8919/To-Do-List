@@ -1,8 +1,8 @@
 :root {
-  --main-bg-color: #bac8ff;
-  --primary-color: #748ffc;
-  --secondary-color: #91a7ff;
-  --tertiary-color: #bac8ff;
+  --main-bg-color: #748ffc;
+  --primary-color: #829afc;
+  --secondary-color: #90a5fd;
+  --tertiary-color: #9eb1fd;
 }
 
 
@@ -92,12 +92,12 @@ body {
   padding: 0.3rem 0;
 }
 
-/* .todo-item:nth-child(odd) {
+.todo-item:nth-child(odd) {
   background-color: var(--secondary-color);
 }
 .todo-item:nth-child(even) {
   background-color: var(--tertiary-color);
-} */
+}
 
 .todo-item--label {
   padding: 0;
