@@ -88,8 +88,8 @@ body {
   /* border: 2.5px solid #91a7ff; */
   background-color: var(--secondary-color);
   color: #fff;
-  letter-spacing: 0.35px
-  margin: 0.45rem 0;
+  letter-spacing: 0.35px;
+  margin: 0.25rem 0;
   padding: 0.3rem 0;
 }
 
