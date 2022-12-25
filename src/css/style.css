@@ -1,5 +1,5 @@
 :root {
-  --main-bg-color: #dbe4ff;
+  --main-bg-color: #bac8ff;
   --primary-color: #748ffc;
   --secondary-color: #91a7ff;
   --tertiary-color: #bac8ff;
@@ -87,7 +87,7 @@ body {
   border-radius: 10rem;
   /* border: 2.5px solid #91a7ff; */
   background-color: #ffa8a8;
-  color: #777;
+  color: #fff;
   margin: 0.45rem 0;
   padding: 0.3rem 0;
 }
