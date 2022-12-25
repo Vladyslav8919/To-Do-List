@@ -85,10 +85,10 @@ body {
 }
 
 .todo-item:nth-child(odd) {
-  background-color: #91a7ff;
+  background-color: #bac8ff;
 }
 .todo-item:nth-child(even) {
-  background-color: #bac8ff;
+  background-color: #dbe4ff;
 }
 
 .todo-item--label {
