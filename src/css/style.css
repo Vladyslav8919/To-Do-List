@@ -9,7 +9,7 @@
 body {
   font-size: 62.5%;
   height: 100vh;
-  background: #748ffc;
+  background: #bac8ff;
   font-family: "Lato", sans-serif;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 .title--do {
-  background-color: #748ffc;
+  background-color: #bac8ff;
   border-radius: 20px;
   color: white;
 }
@@ -76,7 +76,7 @@ body {
   width: 100%;
   border-radius: 10rem;
   /* border: 2.5px solid #91a7ff; */
-  background-color: #91a7ff;
+  background-color: #bac8ff;
   color: whitesmoke;
   margin: 0.3rem 0;
   padding: 0.3rem 0;
@@ -100,7 +100,7 @@ body {
 }
 
 .done .todo-check {
-  color: #91a7ff;
+  color: #bac8ff;
 }
 
 .done .todo-remove {
@@ -130,11 +130,11 @@ input[type="checkbox"] {
 
 .todo-remove {
   visibility: hidden;
-  color: #91a7ff;
+  color: #bac8ff;
 }
 
 .checked {
-  color: #91a7ff;
+  color: #bac8ff;
 }
 
 .empty-state {
