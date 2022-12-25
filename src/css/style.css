@@ -18,12 +18,12 @@ body {
   display: inline-block;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
-  color: #bac8ff;
+  color: #91a7ff;
   letter-spacing: 1px;
 }
 
 .title--do {
-  background-color: #bac8ff;
+  background-color: #91a7ff;
   border-radius: 20px;
   color: white;
 }
@@ -82,6 +82,13 @@ body {
   color: whitesmoke;
   margin: 0.45rem 0;
   padding: 0.3rem 0;
+}
+
+.todo-item:nth-child(odd) {
+  background-color: #91a7ff;
+}
+.todo-item:nth-child(even) {
+  background-color: #bac8ff;
 }
 
 .todo-item--label {
