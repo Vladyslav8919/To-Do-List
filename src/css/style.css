@@ -9,7 +9,7 @@
 body {
   font-size: 62.5%;
   height: 100vh;
-  background: #bac8ff;
+  background: #dbe4ff;
   font-family: "Lato", sans-serif;
 }
 
@@ -18,7 +18,7 @@ body {
   display: inline-block;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
-  color: #bac8ff;
+  color: #91a7ff;
   letter-spacing: 1px;
 }
 
@@ -80,7 +80,7 @@ body {
   /* border: 2.5px solid #91a7ff; */
   background-color: #91a7ff;
   color: whitesmoke;
-  margin: 0.5rem 0;
+  margin: 0.4rem 0;
   padding: 0.3rem 0;
 }
 
