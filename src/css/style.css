@@ -85,7 +85,7 @@ body {
 }
 
 .todo-item:nth-child(odd) {
-  background-color: #bac8ff;
+  background-color: #dbe4ff;
 }
 .todo-item:nth-child(even) {
   background-color: #dbe4ff;
