@@ -9,7 +9,7 @@
 body {
   font-size: 62.5%;
   height: 100vh;
-  background: #dbe4ff;
+  background: #ffe3e3;
   font-family: "Lato", sans-serif;
 }
 
@@ -18,12 +18,12 @@ body {
   display: inline-block;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
-  color: #91a7ff;
+  color: #ffa8a8;
   letter-spacing: 1px;
 }
 
 .title--do {
-  background-color: #91a7ff;
+  background-color: #ffa8a8;
   border-radius: 20px;
   color: white;
 }
@@ -50,7 +50,7 @@ body {
   width: 60%;
   font-family: inherit;
   border-radius: 10rem;
-  border: 3px solid #bac8ff;
+  border: 3px solid #ffc9c9;
   padding: 0.3rem;
   text-align: center;
 }
@@ -59,8 +59,8 @@ body {
   font-family: "Lato", sans-serif;
   width: 10%;
   color: whitesmoke;
-  background-color: #91a7ff;
-  border: 2.5px solid #91a7ff;
+  background-color: #ffa8a8;
+  border: 2.5px solid #ffa8a8;
   border-radius: 10rem;
   padding: 0.3rem;
 }
@@ -78,7 +78,7 @@ body {
   width: 100%;
   border-radius: 10rem;
   /* border: 2.5px solid #91a7ff; */
-  background-color: #91a7ff;
+  background-color: #ffa8a8;
   color: whitesmoke;
   margin: 0.45rem 0;
   padding: 0.3rem 0;
@@ -143,7 +143,7 @@ input[type="checkbox"] {
 }
 
 .checked {
-  color: #bac8ff;
+  color: #ffc9c9;
 }
 
 .empty-state {
