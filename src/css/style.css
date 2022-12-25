@@ -88,7 +88,7 @@ body {
   background-color: #dbe4ff;
 }
 .todo-item:nth-child(even) {
-  background-color: #dbe4ff;
+  background-color: #91a7ff;
 }
 
 .todo-item--label {
