@@ -1,3 +1,11 @@
+:root {
+  --main-bg-color: #dbe4ff;
+  --primary-color: #748ffc;
+  --secondary-color: #91a7ff;
+  --tertiary-color: #bac8ff;
+}
+
+
 *,
 *:before,
 *:after {
@@ -9,7 +17,7 @@
 body {
   font-size: 62.5%;
   height: 100vh;
-  background: #f1f3f5;
+  background: var(--main-bg-color);
   font-family: "Lato", sans-serif;
 }
 
@@ -18,12 +26,12 @@ body {
   display: inline-block;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
-  color: #ced4da;
+  color: var(--primary-color);
   letter-spacing: 1px;
 }
 
 .title--do {
-  background-color: #ced4da;
+  background-color: var(--primary-color);
   border-radius: 20px;
   color: white;
 }
@@ -37,7 +45,7 @@ body {
   border-radius: 20px;
   min-width: 450px;
   background-color: white;
-  color: #ced4da;
+  color: var(--primary-color)
   font-size: 1.6rem;
   text-align: center;
 }
@@ -59,8 +67,8 @@ body {
   font-family: "Lato", sans-serif;
   width: 10%;
   color: whitesmoke;
-  background-color: #ced4da;
-  border: 2.5px solid #ced4da;
+  background-color: var(--primary-color);
+  border: 2.5px solid var(--primary-color);
   border-radius: 10rem;
   padding: 0.3rem;
 }
@@ -85,10 +93,10 @@ body {
 }
 
 .todo-item:nth-child(odd) {
-  background-color: #dee2e6;
+  background-color: var(--secondary-color);
 }
 .todo-item:nth-child(even) {
-  background-color: #e9ecef;
+  background-color: var(--tertiary-color);
 }
 
 .todo-item--label {
@@ -109,7 +117,7 @@ body {
 }
 
 .done .todo-check {
-  color: #e9ecef;
+  color: var(--tertiary-color);
 }
 
 .done .todo-remove {
@@ -139,11 +147,11 @@ input[type="checkbox"] {
 
 .todo-remove {
   visibility: hidden;
-  color: #e9ecef;
+  color: var(--tertiary-color);
 }
 
 .checked {
-  color: #e9ecef
+  color: var(--tertiary-color);
 }
 
 .empty-state {
