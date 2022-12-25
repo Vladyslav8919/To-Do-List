@@ -9,7 +9,7 @@
 body {
   font-size: 62.5%;
   height: 100vh;
-  background: #ffe3e3;
+  background: #f1f3f5;
   font-family: "Lato", sans-serif;
 }
 
@@ -18,12 +18,12 @@ body {
   display: inline-block;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
-  color: #ffa8a8;
+  color: #ced4da;
   letter-spacing: 1px;
 }
 
 .title--do {
-  background-color: #ffa8a8;
+  background-color: #ced4da;
   border-radius: 20px;
   color: white;
 }
@@ -37,7 +37,7 @@ body {
   border-radius: 20px;
   min-width: 450px;
   background-color: white;
-  color: #748ffc;
+  color: #ced4da;
   font-size: 1.6rem;
   text-align: center;
 }
@@ -50,7 +50,7 @@ body {
   width: 60%;
   font-family: inherit;
   border-radius: 10rem;
-  border: 3px solid #ffc9c9;
+  border: 3px solid #e9ecef;
   padding: 0.3rem;
   text-align: center;
 }
@@ -59,8 +59,8 @@ body {
   font-family: "Lato", sans-serif;
   width: 10%;
   color: whitesmoke;
-  background-color: #ffa8a8;
-  border: 2.5px solid #ffa8a8;
+  background-color: #ced4da;
+  border: 2.5px solid #ced4da;
   border-radius: 10rem;
   padding: 0.3rem;
 }
@@ -85,10 +85,10 @@ body {
 }
 
 .todo-item:nth-child(odd) {
-  background-color: #ffa8a8;
+  background-color: #dee2e6;
 }
 .todo-item:nth-child(even) {
-  background-color: #ff8787;
+  background-color: #e9ecef;
 }
 
 .todo-item--label {
@@ -109,7 +109,7 @@ body {
 }
 
 .done .todo-check {
-  color: #bac8ff;
+  color: #e9ecef;
 }
 
 .done .todo-remove {
@@ -139,11 +139,11 @@ input[type="checkbox"] {
 
 .todo-remove {
   visibility: hidden;
-  color: #bac8ff;
+  color: #e9ecef;
 }
 
 .checked {
-  color: #ffc9c9;
+  color: #e9ecef
 }
 
 .empty-state {
