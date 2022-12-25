@@ -18,12 +18,12 @@ body {
   display: inline-block;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
-  color: #91a7ff;
+  color: #bac8ff;
   letter-spacing: 1px;
 }
 
 .title--do {
-  background-color: #91a7ff;
+  background-color: #bac8ff;
   border-radius: 20px;
   color: white;
 }
@@ -80,7 +80,7 @@ body {
   /* border: 2.5px solid #91a7ff; */
   background-color: #91a7ff;
   color: whitesmoke;
-  margin: 0.4rem 0;
+  margin: 0.45rem 0;
   padding: 0.3rem 0;
 }
 
