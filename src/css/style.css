@@ -18,10 +18,12 @@ body {
   display: inline-block;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
+  background-color: #bac8ff;
+  letter-spacing: 1px;
 }
 
 .title--do {
-  background-color: #bac8ff;
+  background-color: #91a7ff;
   border-radius: 20px;
   color: white;
 }
@@ -76,7 +78,7 @@ body {
   width: 100%;
   border-radius: 10rem;
   /* border: 2.5px solid #91a7ff; */
-  background-color: #bac8ff;
+  background-color: #91a7ff;
   color: whitesmoke;
   margin: 0.3rem 0;
   padding: 0.3rem 0;
